@@ -48,22 +48,23 @@ This solution leverages a combination of a **Magisk** module and a custom `play_
 
 1.   Download the all the module from the releases page.
 2.   Make sure you downloaded the compatible module for your android version, or just use recomendation on releases page.
-3.   Open the root app and go to the "Modules" section.
-4.   Tap "Install from storage," locate the downloaded zip file, and select it.
-5.   Before you reboot, get back and flash another module until all is flashed into your root app.
-6.   Magisk will flash the module. Once complete, **reboot your device**.
-7.   After reboot,
-     - If you are using Magisk, go open KSUWebui and click at "Play Integrity Fix [Inject]",  click advanced and check all exept the top one and the bottom one.
+3.   Install the ".apk" file from the releases page.
+4.   Open the root app and go to the "Modules" section.
+5.   Tap "Install from storage," locate the downloaded zip file, and select it.
+6.   Before you reboot, get back and flash another module until all is flashed into your root app.
+7.   Magisk will flash the module. Once complete, **reboot your device**.
+8.   After reboot,
+     - If you are using Magisk, go open KSUWebUI and click at "Play Integrity Fix [Inject]",  click advanced and check all exept the top one and the bottom one.
      - If you are using KernelSU, open the app, click at "Play Integrity Fix [Inject]",  click advanced and check all exept the top one and the bottom one.
-8.   Reboot again,
-     - If you are using Magisk, go open KSUWebui and click at "Tricky Store",  click 3 bars at the top, select all, diselect unnecessary, set valid keybox, set security patch, and save.
+9.   Reboot again,
+     - If you are using Magisk, go open KSUWebUI and click at "Tricky Store",  click 3 bars at the top, select all, diselect unnecessary, set valid keybox, set security patch, and save.
      - If you are using KernelSU, open the app, click at "Tricky Store", click 3 bars at the top, select all, diselect unnecessary, set valid keybox, set security patch, and save.
-9.   The fix will be active. You can verify its status using a **Play Integrity API Checker** application. But to hide your root, get to number 10 and next
-10.  Reboot again, check the notification, click the "LSposed" and go to module, activate the "Hide My Applist".
-11.  Reboot again, open "Hide My Applist" app and select "App Manage", select your app that you need to hide from root to working properly.
-12.  At the app setting check the work mode.
-13.  Reboot again, and hide the magisk app, and also configure denylist for app that you hide.
-14.  Last Reboot. It your app will work properly.
+10.   The fix will be active. You can verify its status using a **Play Integrity API Checker** application. But to hide your root, get to number 10 and next
+11.  Reboot again, check the notification, click the "LSposed" and go to module, activate the "Hide My Applist".
+12.  Reboot again, open "Hide My Applist" app and select "App Manage", select your app that you need to hide from root to working properly.
+13.  At the app setting check the work mode.
+14.  Reboot again, and hide the magisk app, and also configure denylist for app that you hide.
+15.  Last Reboot. It your app will work properly.
 
 ### Disclaimer
 
